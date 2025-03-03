@@ -66,6 +66,9 @@ section.lead h5 strong {
 section.lead p {
   text-align: right;
 }
+section.lead {
+background-image: url(https://raw.githubusercontent.com/moiku/marp-theme-academic/refs/heads/main/images/bg.png);
+}
 
 header {
   background-color: #0a2d92;
