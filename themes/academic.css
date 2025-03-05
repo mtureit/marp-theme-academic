@@ -28,10 +28,21 @@ ul ul {
   font-size: 0.9em;
 }
 
+/* ヘッダーのスタイルをh1に移動 */
+h1 {
+  background-color: #0a2d92;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+/* 既存のh1スタイルを別のスタイルとして保持（section.lead h1）*/
 section.lead h1 {
+  background-color: transparent; /* ヘッダースタイルをリセット */
   color: #0a2d92;
   text-align: left;
 }
+
 section.lead h1 strong {
   -webkit-text-stroke: 1px #0a2d92;
 }
