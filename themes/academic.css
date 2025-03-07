@@ -118,7 +118,9 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
-
+table {
+  font-size: 24pt;
+}
 code {
   font-family: 'Source Code Pro', monospace;
 }
