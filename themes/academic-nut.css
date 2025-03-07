@@ -1,4 +1,4 @@
-/* @theme academic */
+/* @theme academic-nut */
 
 @import 'gaia';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
@@ -123,4 +123,31 @@ table {
 }
 code {
   font-family: 'Source Code Pro', monospace;
+}
+
+.marker {
+    background: linear-gradient(transparent 60%, var(--color-nut4) 60%);
+    padding: 0 2px;
+}
+
+.bubble {
+    position: relative;
+    background-color: white;
+    border: 2px solid var(--color-nut2);
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-right: 2px solid var(--color-nut2);
+    border-bottom: 2px solid var(--color-nut2);
+    transform: rotate(45deg);
 }
