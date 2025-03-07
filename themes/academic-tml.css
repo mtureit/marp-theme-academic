@@ -9,7 +9,7 @@
   --color-foreground: #333;
   --color-highlight: #0a2d92;
   --color-nut1: #3E3A39;
-  --color-nut2: #0A2D88;
+  --color-nut2: #0A2D92;
   --color-nut3: #A5B8E8;
   --color-nut4: #FFADB1;
   --color-nut5: #E60012;
@@ -52,49 +52,49 @@ ul ul {
 }
 
 section.lead h1 {
-  color: #0a2d92;
+  color: var(--color-nut2);
   text-align: left;
 }
 section.lead h1 strong {
-  -webkit-text-stroke: 1px #0a2d92;
+  -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead h2 {
-  color: #0a2d92;
+  color: var(--color-nut2);
   text-align: left;
 }
 section.lead h2 strong {
-  -webkit-text-stroke: 1px #0a2d92;
+  -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead h3 {
-  color: #0a2d92;
+  color: var(--color-nut2);
   text-align: left;
 }
 section.lead h3 strong {
-  -webkit-text-stroke: 1px #0a2d92;
+  -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead h4 {
-  color: #0a2d92;
+  color: var(--color-nut2);
   text-align: left;
 }
 section.lead h4 strong {
-  -webkit-text-stroke: 1px #0a2d92;
+  -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead h5 {
-  color: #0a2d92;
+  color: var(--color-nut2);
   text-align: left;
 }
 section.lead h5 strong {
-  -webkit-text-stroke: 1px #0a2d92;
+  -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead p {
   text-align: right;
 }
 section.lead {
-background-image: url(https://raw.githubusercontent.com/moiku/marp-theme-academic/refs/heads/main/images/bg-tml.png);
+background-image: url(https://raw.githubusercontent.com/moiku/marp-theme-academic/refs/heads/main/images/bg.png);
 }
 
 header {
-  background-color: #0a2d92;
+  background-color: var(--color-nut2);
   color: #fff;
   font-size: 48px;
   font-weight: 700;
