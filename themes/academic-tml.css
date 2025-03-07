@@ -129,7 +129,7 @@ code {
 
 .marker {
     font-size: 28px;
-    background: linear-gradient(transparent 4-%, var(--color-nut4) 40%);
+    background: linear-gradient(transparent 80%, var(--color-nut4) 60%);
     padding: 0 2px;
 }
 
@@ -140,17 +140,4 @@ code {
     border-radius: 15px;
     padding: 1rem;
     margin: 1rem 0;
-}
-
-.bubble::before {
-    content: '';
-    position: absolute;
-    bottom: -15px;
-    left: 30px;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-right: 2px solid var(--color-nut2);
-    border-bottom: 2px solid var(--color-nut2);
-    transform: rotate(45deg);
 }
