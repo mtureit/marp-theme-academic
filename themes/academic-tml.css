@@ -118,8 +118,10 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
 }
+
 table {
   font-size: 24pt;
+  margin: auto;
 }
 code {
   font-family: 'Source Code Pro', monospace;
