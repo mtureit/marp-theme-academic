@@ -8,6 +8,29 @@
   --color-background: #F6F9F6;
   --color-foreground: #333;
   --color-highlight: #0a2d92;
+  --color-nut1: #3E3A39;
+  --color-nut2: #0A2D88;
+  --color-nut3: #A5B8E8;
+  --color-nut4: #FFADB1;
+  --color-nut5: #E60012;
+}
+h1 {
+  font-size: 32px;
+  color: var(--color-nut2);
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  color: var(--color-nut5);
+  border-bottom: 2px solid var(--color-nut3);
+}
+h3 {
+  font-size: 20px;
+  color: var(--color-nut1);
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 section {
