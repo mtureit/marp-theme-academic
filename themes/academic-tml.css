@@ -126,7 +126,7 @@ code {
 }
 
 .marker {
-    background: linear-gradient(transparent 60%, var(--color-nut4) 60%);
+    background: linear-gradient(transparent 4-%, var(--color-nut4) 40%);
     padding: 0 2px;
 }
 
