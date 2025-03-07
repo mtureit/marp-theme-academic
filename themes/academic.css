@@ -15,21 +15,21 @@
   --color-nut5: #E60012;
 }
 h1 {
-  font-size: 32px;
-  color: var(--color-nut2);
+  font-size: 48px;
+  color: var(--color-nut1);
   font-weight: bold;
 }
 h2 {
-  font-size: 24px;
-  color: var(--color-nut5);
+  font-size: 36px;
+  color: var(--color-nut2);
   border-bottom: 2px solid var(--color-nut3);
 }
 h3 {
-  font-size: 20px;
+  font-size: 28px;
   color: var(--color-nut1);
 }
 p {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.5;
 }
 
@@ -52,7 +52,6 @@ ul ul {
 }
 
 section.lead h1 {
-  font-size: 48pt;
   color: #0a2d92;
   text-align: left;
 }
@@ -60,7 +59,6 @@ section.lead h1 strong {
   -webkit-text-stroke: 1px #0a2d92;
 }
 section.lead h2 {
-  font-size: 32pt;
   color: #0a2d92;
   text-align: left;
 }
@@ -98,7 +96,7 @@ background-image: url(https://raw.githubusercontent.com/moiku/marp-theme-academi
 header {
   background-color: #0a2d92;
   color: #fff;
-  font-size: 1.3em;
+  font-size: 48px;
   font-weight: 700;
 } 
 
