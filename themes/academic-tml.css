@@ -52,6 +52,9 @@ section::after {
 ul ul {
   font-size: 0.9em;
 }
+li span {
+  font-size: inherit;
+}
 
 section.lead h1 {
   color: var(--color-nut2);
