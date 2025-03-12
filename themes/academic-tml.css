@@ -32,9 +32,7 @@ p {
   font-size: 28px;
   line-height: 1.5;
 }
-span {
-  font-size: inherit;
-}
+
 section {
   background-image: none;
   font-family: 'Noto Sans JP', sans-serif;
@@ -51,9 +49,6 @@ section::after {
 
 ul ul {
   font-size: 0.9em;
-}
-li span {
-  font-size: inherit;
 }
 
 section.lead h1 {
@@ -133,7 +128,7 @@ code {
 }
 
 .marker {
-    font-size: 28px;
+    font-size: inherit;
     background: linear-gradient(transparent 80%, var(--color-nut4) 60%);
     padding: 0 2px;
 }
