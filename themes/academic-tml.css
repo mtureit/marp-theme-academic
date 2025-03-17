@@ -132,7 +132,7 @@ code {
 
 .marker {
     font-size: inherit;
-    background: linear-gradient(transparent 80%, var(--color-nut4) 60%);
+    background: linear-gradient(transparent 80%, var(--color-nut4) 40%);
     padding: 0 2px;
 }
 
