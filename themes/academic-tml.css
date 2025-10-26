@@ -25,6 +25,10 @@ h2 {
   border-bottom: 2px solid var(--color-nut3);
 }
 h3 {
+  font-size: 32px;
+  color: var(--color-nut1);
+}
+h4 {
   font-size: 28px;
   color: var(--color-nut1);
 }
@@ -103,9 +107,12 @@ header {
 blockquote {
   max-width: 90%;
   border-top: 0.1em dashed #555;
-  font-size: 60%;
+  font-size: 0.7em;
   position: absolute;
   bottom: 20px;
+}
+blockquote, blockquote p {
+  font-size: 0.7em;
 }
 blockquote::before {
   content: "";
@@ -120,16 +127,24 @@ img[alt~="center"] {
 }
 
 table {
-  font-size: 24pt;
+  font-size: 20pt;
   margin: auto;
 }
 code {
   font-family: 'Source Code Pro', monospace;
 }
 
+.two-columns {
+  display: flex;
+  gap: 20px;
+}
+.column {
+  flex: 1;
+}
+
 .marker {
-    font-size: 28px;
-    background: linear-gradient(transparent 80%, var(--color-nut4) 60%);
+    font-size: inherit;
+    background: linear-gradient(transparent 80%, var(--color-nut4) 40%);
     padding: 0 2px;
 }
 
@@ -140,4 +155,5 @@ code {
     border-radius: 15px;
     padding: 1rem;
     margin: 1rem 0;
+    text-align: center;
 }
