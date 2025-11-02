@@ -16,8 +16,12 @@
 }
 h1 {
   font-size: 48px;
-  color: var(--color-nut1);
+  color: #fff;
   font-weight: bold;
+  background-color: var(--color-nut2);
+  padding: 20px 40px;
+  margin-left: -40px;
+  margin-right: -40px;
 }
 h2 {
   font-size: 36px;
