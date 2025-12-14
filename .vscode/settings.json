@@ -1,0 +1,7 @@
+{
+  "markdown.marp.themes": [
+    "./themes/academic-tml.css",
+    "./themes/academic-tcue.css",
+    "./themes/academic-wsd.css"
+  ]
+}

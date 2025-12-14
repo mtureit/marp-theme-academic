@@ -16,23 +16,32 @@
 }
 h1 {
   font-size: 48px;
-  color: #fff;
+  color: var(--color-nut1);
   font-weight: bold;
-  background-color: var(--color-nut2);
-  padding: 20px 40px;
-  margin-left: -40px;
-  margin-right: -40px;
 }
 h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-nut2);
+  color: white;
+  font-size: 36px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+  margin: 0;
+}
+h3 {
   font-size: 36px;
   color: var(--color-nut2);
   border-bottom: 2px solid var(--color-nut3);
 }
-h3 {
+h4 {
   font-size: 32px;
   color: var(--color-nut1);
 }
-h4 {
+h5 {
   font-size: 28px;
   color: var(--color-nut1);
 }
@@ -44,13 +53,19 @@ p {
 section {
   background-image: none;
   font-family: 'Noto Sans JP', sans-serif;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-left: 40px;
   padding-right: 40px;
+  position: relative;
 }
 
 /* https://github.com/marp-team/marpit/issues/271 */
 section::after {
+  position: absolute;
+  bottom: 16px;
+  right: 40px;
+  font-size: 14px;
+  color: #666;
   font-weight: 700;
   content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
 }
@@ -67,8 +82,12 @@ section.lead h1 strong {
   -webkit-text-stroke: 1px var(--color-nut2);
 }
 section.lead h2 {
+  position: static; /* leadクラスでは固定しない */
   color: var(--color-nut2);
   text-align: left;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
 }
 section.lead h2 strong {
   -webkit-text-stroke: 1px var(--color-nut2);
@@ -106,7 +125,14 @@ header {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
-} 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 40px;
+  z-index: 10;
+  line-height: 1.2;
+}
 
 blockquote {
   max-width: 90%;
